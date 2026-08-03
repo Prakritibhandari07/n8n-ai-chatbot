@@ -2,7 +2,6 @@
 An n8n workflow that powers a conversational AI chatbot using the LangChain Agent node. The agent has chat memory, a language model (OpenAI), and access to a sub-agent "tool" that can clean and normalize lead form data.
 
 ## What it does
-
 - Listens for incoming chat messages (via n8n's **Chat Trigger**)
 - Routes the message to an **AI Agent** node powered by **OpenAI (gpt-5-mini)**
 - Keeps short-term conversation context using a **Buffer Window Memory**
